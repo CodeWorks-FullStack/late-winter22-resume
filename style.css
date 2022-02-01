@@ -1,0 +1,95 @@
+/* CSS VARIABLES */
+:root {
+  --grey: #c9c9c9;
+  --primary: rgb(18, 105, 86);
+}
+
+body {
+  margin: 0
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+/* h1, h3, p {
+  margin: 0
+} */
+
+h2 {
+  background: var(--grey);
+  display: inline;
+  padding: .5rem
+}
+
+h2, h3 {
+  color: var(--primary)
+}
+
+.d-flex {
+  display: flex;
+}
+
+.vertical-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mr-3 {
+  margin-right: 3rem;
+}
+
+.mt-5 {
+  margin-top: 5em;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* -------- */
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  background-color: var(--grey);
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 32pt;
+}
+
+.cover-photo {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  transform: translateY(5em);
+}
+
+.left-section {
+  padding: 1em;
+  text-align: right;
+}
+
+.category h2 {
+  margin: 0 0 1em 0 !important;
+}
+
+.right-section {
+  padding: 1em
+}
+
+.job {
+  padding-bottom: .5em;
+  border-bottom: 1px solid var(--primary)
+}
